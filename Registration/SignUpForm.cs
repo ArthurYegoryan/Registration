@@ -97,7 +97,6 @@ namespace Registration
             {
                 var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(textBoxPassword.Text));
                 hashPass = BitConverter.ToString(hashedBytes).Replace("-", "").ToLower();
-                Console.WriteLine(hashPass);
             }
 
                 Database database = new Database();
@@ -121,7 +120,7 @@ namespace Registration
             database.CloseConnection();
         }
 
-        public bool IsEmailExists()
+        private bool IsEmailExists()
         {
             Database database = new Database();
 
@@ -144,7 +143,7 @@ namespace Registration
                 return false;
         }
 
-        public bool IsUserNameExists()
+        private bool IsUserNameExists()
         {
             Database database = new Database();
 

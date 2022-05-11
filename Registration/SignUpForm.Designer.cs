@@ -51,7 +51,7 @@
             // textBoxUserName
             // 
             this.textBoxUserName.Location = new System.Drawing.Point(180, 187);
-            this.textBoxUserName.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBoxUserName.Margin = new System.Windows.Forms.Padding(1);
             this.textBoxUserName.MaxLength = 50;
             this.textBoxUserName.Name = "textBoxUserName";
             this.textBoxUserName.Size = new System.Drawing.Size(142, 20);
@@ -62,7 +62,7 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(180, 213);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(1);
             this.textBoxPassword.MaxLength = 50;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(142, 20);
@@ -94,7 +94,7 @@
             // buttonSignUp
             // 
             this.buttonSignUp.Location = new System.Drawing.Point(180, 269);
-            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(1);
             this.buttonSignUp.Name = "buttonSignUp";
             this.buttonSignUp.Size = new System.Drawing.Size(61, 23);
             this.buttonSignUp.TabIndex = 13;
@@ -115,7 +115,7 @@
             // textBoxFirstName
             // 
             this.textBoxFirstName.Location = new System.Drawing.Point(180, 72);
-            this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(1);
             this.textBoxFirstName.MaxLength = 50;
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(169, 20);
@@ -136,7 +136,7 @@
             // textBoxLastName
             // 
             this.textBoxLastName.Location = new System.Drawing.Point(180, 99);
-            this.textBoxLastName.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBoxLastName.Margin = new System.Windows.Forms.Padding(1);
             this.textBoxLastName.MaxLength = 50;
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(169, 20);
@@ -157,7 +157,7 @@
             // textBoxEmail
             // 
             this.textBoxEmail.Location = new System.Drawing.Point(180, 125);
-            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(1);
             this.textBoxEmail.MaxLength = 50;
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(169, 20);
@@ -178,7 +178,7 @@
             // textBoxConfirmPass
             // 
             this.textBoxConfirmPass.Location = new System.Drawing.Point(180, 239);
-            this.textBoxConfirmPass.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBoxConfirmPass.Margin = new System.Windows.Forms.Padding(1);
             this.textBoxConfirmPass.MaxLength = 50;
             this.textBoxConfirmPass.Name = "textBoxConfirmPass";
             this.textBoxConfirmPass.Size = new System.Drawing.Size(142, 20);
@@ -190,7 +190,7 @@
             // panel1
             // 
             this.panel1.Location = new System.Drawing.Point(74, 154);
-            this.panel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(272, 4);
             this.panel1.TabIndex = 16;
@@ -198,17 +198,18 @@
             // txtRegPage
             // 
             this.txtRegPage.AutoSize = true;
-            this.txtRegPage.Location = new System.Drawing.Point(159, 21);
+            this.txtRegPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtRegPage.Location = new System.Drawing.Point(137, 22);
             this.txtRegPage.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.txtRegPage.Name = "txtRegPage";
-            this.txtRegPage.Size = new System.Drawing.Size(93, 13);
+            this.txtRegPage.Size = new System.Drawing.Size(157, 20);
             this.txtRegPage.TabIndex = 17;
             this.txtRegPage.Text = "Registration page!";
             // 
             // buttonHaveAccount
             // 
             this.buttonHaveAccount.Location = new System.Drawing.Point(231, 315);
-            this.buttonHaveAccount.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.buttonHaveAccount.Margin = new System.Windows.Forms.Padding(1);
             this.buttonHaveAccount.Name = "buttonHaveAccount";
             this.buttonHaveAccount.Size = new System.Drawing.Size(172, 25);
             this.buttonHaveAccount.TabIndex = 14;
@@ -261,7 +262,7 @@
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.textBoxUserName);
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "SignUpForm";
             this.Text = "SignUp Form";
             this.ResumeLayout(false);
